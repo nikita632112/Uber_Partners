@@ -1,0 +1,557 @@
+*
+    box-sizing: border-box
+    margin: 0px
+    padding: 0px
+
+.contener
+    margin: 0 auto
+    width: 59.5%
+    @media screen and (max-width: 1680px)
+        width: 70%
+    @media screen and (max-width: 1580px)
+        width: 80%
+    @media screen and (max-width: 1480px)
+        width: 85%
+    @media screen and (max-width: 1480px)
+        width: 100%
+.header_top
+    height: 53px
+    background-color: #212121
+    .menu
+        padding: 18px
+        ul
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        li
+            list-style-type: none
+            a
+                font-family: 'Roboto'
+                font-style: normal
+                font-weight: 300
+                font-size: 15px
+                line-height: 15px
+                color: #FFFFFF
+                text-decoration: none
+
+.header_lower
+    position: absolute
+    width: 100%
+    height: 84px
+    background-color: rgba(0,0,0, .6)
+    padding: 18px 15px 18px 15px
+    .logo
+        width: 260px
+        display: flex
+        flex-direction: row
+        justify-content: space-between        
+        &_img
+            width: 32px
+            display: block
+            
+        &_text           
+            font-family: 'Nokia - Sans - S 60'
+            font-size: 26px
+            text-transform: uppercase
+            letter-spacing: 0.075em
+            color: #ffffff
+
+.official
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 100
+    font-size: 13px   
+    color: #FFFFFF
+
+.content
+    width: 56%
+    margin: 0 auto
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    @media screen and (max-width: 1680px)
+        width: 65%
+    @media screen and (max-width: 1580px)
+        width: 70%
+    @media screen and (max-width: 1480px)
+        width: 70%
+
+.zvonok
+    width: 370px
+    margin-top: 5px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    &_text
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 300
+        font-size: 12px
+        line-height: 14px
+        color: white
+    .subheader_phone
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 22px
+        
+    a
+        text-decoration: none
+        color: white
+        text-transform: uppercase
+        
+    &_btn
+        .btn
+            width: 172px
+            height: 46px
+            box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+            border: none
+            border-radius: 4px
+            background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+            text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+            color: #ffffff
+            font-size: 14px
+            font-weight: 400
+            text-transform: uppercase
+            transition: all 500ms ease
+        .btn:hover
+            background: #ffffff
+            color: black
+            font-size: 14px
+            font-weight: 400
+            text-transform: uppercase
+            border: none
+
+.promo
+    width: 100%
+    min-height: 799px 
+    background-color: black
+    background: url(../img/uber_bg.jpg) center center/cover no-repeat
+    padding: 150px 0 135px 0  
+    &_text
+        text-align: center
+        h1            
+            
+            font-weight: 900
+            font-size: 60px
+            color: #FFFFFF
+            
+        h2
+    
+            font-weight: 900
+            font-size: 33px
+            color: #FFFFFF
+    .knopka
+        display: flex
+        justify-content: center
+        margin-top: 115px
+        .btn
+            width: 259px
+            height: 63px
+            box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+            border: none
+            border-radius: 4px
+            background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+            text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+            color: #ffffff
+            font-size: 14px
+            font-weight: 400
+            text-transform: uppercase
+        .btn:hover
+            background: #ffffff
+            color: black
+            font-size: 14px
+            font-weight: 400
+            text-transform: uppercase
+            border: none
+        
+            
+    .description
+        margin-top: 16px
+          
+        font-size: 20px
+        color: #FFFFFF
+        align-items: center
+        text-align: center
+        text-indent: 30px
+        font-weight: 400
+        
+    .description_2
+        margin-top: 30px
+        font-weight: 400
+        font-style: normal   
+        font-size: 18px
+        color: #FFFFFF
+        align-items: center
+        text-align: center
+        text-indent: 30px
+
+.causes
+    width: 100%
+    min-height: 800px
+    padding: 18px 0 0 60px
+    .knopka
+        display: flex
+        justify-content: center
+        .benefits
+            font-family: 'Roboto'
+            font-style: normal
+            font-weight: 400
+            font-size: 11px
+            background: #000000
+            color: #ffffff
+            border: none
+            padding: 2px
+    .top_causes
+        margin-top: 32px
+        text-align: center
+        font-style: normal
+        font-weight: 700
+        font-size: 38px
+        color: black
+.prichin
+    margin-top: 30px 
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    flex-wrap: wrap
+    height: 645px
+    .prichin_oblic
+        display: flex
+        flex-direction: row
+        .logo
+            display: flex
+            justify-content: center
+            margin-top: 10px
+            width: 116px
+            height: 116px
+            border-radius: 100%
+            background: #1EACC7
+            .icons
+                display: block
+                margin: auto
+        .prichin_text
+            margin-left: 15px
+            width: 371px
+            height: 150px
+            .zagolovok
+                color: #1EACC7
+                font-style: normal
+                font-weight: 400
+                font-size: 17px
+                line-height: 21px
+            .opis
+                margin-top: 5px
+                font-style: normal
+                font-weight: 300
+                font-size: 15px
+                line-height: 21px
+
+.mobile_app
+    padding: 10px 0 0 40px
+    width: 100%
+    height: 864px
+    background: url(../img/mobile_bg.jpg) center center/cover no-repeat
+    .knopka
+        display: flex
+        justify-content: center
+        .opportunities
+            font-family: 'Roboto'
+            font-style: normal
+            font-weight: 400
+            font-size: 11px
+            background: #000000
+            color: #ffffff
+            border: none
+            padding: 4px
+.mobile_head
+    h2 
+        margin-top: 15px
+        font-weight: 700
+        font-size: 38px
+        line-height: 48px
+        color: black
+        text-transform: uppercase
+        text-align: center
+    .subtitle
+        font-style: normal
+        font-weight: 400
+        font-size: 17px
+        text-align: center
+
+.oppor
+    margin-top: 30px 
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    flex-wrap: wrap
+    height: 645px
+    .opor_oblic_1
+        background: url(../img/Карточка1.png)
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        padding: 0 0 35px 0
+        width: 320px
+        height: 280px 
+        .opr_text
+            color: #FFFFFF
+    .opor_oblic_2
+        background: url(../img/Карточка2.png)
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        padding: 0 0 35px 0
+        width: 320px
+        height: 280px 
+        .opr_text
+            color: #FFFFFF
+    .opor_oblic_3
+        background: url(../img/Карточка3.png)
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        padding: 0 0 35px 0
+        width: 320px
+        height: 280px 
+        .opr_text
+            color: #FFFFFF
+    .opor_oblic_4
+        background: url(../img/Карточка4.png)
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        padding: 0 0 35px 0
+        width: 320px
+        height: 280px 
+        .opr_text
+            color: #FFFFFF
+    .opor_oblic_5
+        background: url(../img/Карточка5.png)
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        padding: 0 0 35px 0
+        width: 320px
+        height: 280px 
+        .opr_text
+            color: #FFFFFF
+    .opor_oblic_6
+        background: url(../img/Карточка6.png)
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        padding: 0 0 35px 0
+        width: 320px
+        height: 280px 
+        .opr_text
+            text-align: center
+            color: #FFFFFF
+            font-style: normal
+            font-weight: 400
+            font-size: 24px
+            line-height: 31px
+            text-transform: uppercase
+.opr_text
+        margin-top: 80px
+        text-align: center
+        color: #FFFFFF
+        font-style: normal
+        font-weight: 400
+        font-size: 24px
+        line-height: 31px
+        text-transform: uppercase
+
+.opor_btn
+    display: flex
+    justify-content: center
+    .btn
+        width: 30px
+        height: 30px
+        border: none
+        background: black
+        border-radius: 100%
+        padding: 3px
+        img
+            margin: 0 auto
+
+.choice
+    position: relative
+    width: 100%
+    min-height: 900px
+    .top
+        padding: 60px 0 0 0
+        width: 100%
+        height: 502px
+        background: #070716
+        .knopka
+            display: flex
+            justify-content: center
+            .opportunities
+                font-style: normal
+                font-weight: 400
+                font-size: 11px
+                background: #ffffff
+                color: #000
+                border: none
+                padding: 4px
+        &_text
+            .header
+                margin-top: 27px
+                font-family: 'Roboto'
+                font-style: normal
+                font-weight: 700
+                font-size: 38px
+                text-transform: uppercase
+                color: #ffffff
+                text-align: center
+            .opis
+                font-family: 'Roboto'
+                font-style: normal
+                font-weight: 400
+                font-size: 17px
+                line-height: 21px
+                text-align: center
+                color:  #ffffff
+    .lower
+        width: 100%
+        height: 400px
+        background: url(../img/Подложка.png)
+        display: flex
+        align-items: flex-end
+        justify-content: center
+        padding: 0 0 60px 0
+        &_text
+            .opis
+                margin: 0 auto                                                                  
+                font-style: normal
+                font-weight: 300
+                font-size: 17px
+                line-height: 24px
+                text-align: center
+    .car
+        position: absolute
+        margin-left: auto
+        margin-right: auto
+        left: 0
+        right: 0
+        text-align: center
+        top: 25%
+
+.conditions
+    width: 100%
+    height: 800px
+    padding: 60px 150px 60px 150px
+    .knopka
+        display: flex
+        justify-content: center
+        .opportunities
+                font-style: normal
+                font-weight: 400
+                font-size: 11px
+                background:#000000
+                color: #FFFFFF
+                border: none
+                padding: 4px
+    .conditions_text
+        margin-top: 20px
+        font-style: normal
+        font-weight: 700
+        font-size: 38px
+        line-height: 48px
+        text-align: center
+        text-transform: uppercase
+        color: #222222
+    .avto
+        margin-top: 30px
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        .condi
+            .h2
+                font-style: normal
+                font-weight: 400
+                font-size: 22px
+                line-height: 24px
+                color: #1CA8C3
+        .menu
+            list-style-image: url("../img/check_blue.png")
+            li
+                font-style: normal
+                font-weight: 300
+                font-size: 17px
+                line-height: 24px
+                color: #222222
+        .condi_2
+            .h2
+                font-style: normal
+                font-weight: 400
+                font-size: 22px
+                line-height: 24px
+                color: #1CA8C3
+        .menu
+            list-style-image: url("../img/check_blue.png")
+            li
+                font-style: normal
+                font-weight: 300
+                font-size: 17px
+                line-height: 24px
+                color: #222222
+    .avto_2
+        margin-top: 30px
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        .treb
+
+            margin-top: 30px
+            .h2
+                font-style: normal
+                font-weight: 400
+                font-size: 22px
+                line-height: 24px
+                color: #FF5656
+        .menu_2
+            list-style-image: url("../img/check_red.png")
+            li
+                font-style: normal
+                font-weight: 300
+                font-size: 17px
+                line-height: 24px
+                color: #222222
+        .treb_2
+            margin-top: 30px
+            .h2
+                font-style: normal
+                font-weight: 400
+                font-size: 22px
+                line-height: 24px
+                color: #FF5656
+        .menu_2
+            list-style-image: url("../img/check_red.png")
+            li
+                font-style: normal
+                font-weight: 300
+                font-size: 17px
+                line-height: 24px
+                color: #222222
+.map
+    width: 100%
+    height: 500px 
+
+   
+                        
+
+
+
+            
+                        
+
+
+
+
+                
+
+
+            
+
